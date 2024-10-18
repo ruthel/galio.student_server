@@ -1,0 +1,32 @@
+{
+  "name": "galiostu.server",
+  "description": "Server for web application of students of the IUC school",
+  "main": "services/api.service.js",
+  "scripts": {
+    "start": "set PORT=3002 && node index.js --trace-deprecation"
+  },
+  "devDependencies": {
+    "moleculer-repl": "^0.7.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "base-converter": "^1.1.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moleculer": "^0.14.33",
+    "moleculer-cron": "^0.0.2",
+    "moleculer-db": "^0.8.25",
+    "moleculer-db-adapter-sequelize": "^0.2.16",
+    "moleculer-web": "^0.10.7",
+    "nodemailer": "^6.9.13",
+    "request": "^2.88.2",
+    "sequelize": "^6.37.3",
+    "tedious": "^18.2.0",
+    "url-encode-decode": "^1.0.0",
+    "validator": "^13.7.0"
+  },
+  "keywords": []
+}
